@@ -16,7 +16,7 @@ open class LegacySwiftSignatureView: UIView, UIGestureRecognizerDelegate, ISigna
     open var scale: CGFloat = 10.0
     
     /// The gesture recognizer that the canvas uses to track touch events.
-    private(set) open var drawingGestureRecognizer: UIGestureRecognizer?
+    open var drawingGestureRecognizer: UIGestureRecognizer?
 
     /**
     The maximum stroke width.
